@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <div class="aside">
+            <div class="title">
+                    <img src="img/odin-lined.png" alt="odinLogo" class="odinLogo">
+                    <span class="odin">ODIN</span>
+            </div>
+            <img src="img/halie-west-25xggax4bSA-unsplash.jpg"  alt="A pleseant scene pic" class="sideImg">
+            <span class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hallie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+        </div>
+        <div class="form">
+            <div class="formHead">
+                <p class="head1">
+                    This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <span>now</span> to get started. 
+                </p>
+                <p class="head2">
+                    You <span>know</span>  you want to
+                </p>
+            </div>
+            <div class="mainForm">
+                <h2 class="formTitle">Lets Do this</h2>
+                <form action="#" onsubmit="validateMyForm()" ="post">
+                    <div class="userInput">
+                        <label for="fname" class="formLbl">
+                            FIRST NAME
+                        </label>
+                        <input type="text" id="fname" required>
+                    </div>
+                    <div class="userInput">
+                        <label for="lname" class="formLbl">
+                            LAST NAME
+                        </label>
+                        <input type="text" id="lname" required>
+                    </div>
+                    <div class="userInput">
+                        <label for="phone" class="formLbl">
+                           PHONE NUMBER
+                        </label>
+                        <input type="number" id="phone"  required>
+                    </div>
+                    <div class="userInput">
+                        <label for="email" class="formLbl">
+                            EMAIL ADDRESS
+                         </label>
+                         <input type="email" id="email"  required>
+                    </div>
+                    <div class="userInput">
+                        <label for="password" class="formLbl">
+                            PASSWORD
+                         </label>
+                         <input type="password" id="password"  required>
+                    </div>
+                    <div class="userInput">
+                        <label for="passwordCfm" class="formLbl">
+                            CONFIRM PASSWORD
+                         </label>
+                         <input type="text" id="passwordCfm" required>
+                    </div>
+            </div>
+            <div class="submitArea">
+                <button type="submit" class="sbtn">CREATE ACCOUNT</button>
+            </form>
+                <p class="lgtxt">Already Have Account? <a href="#" class="login">Log In</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
